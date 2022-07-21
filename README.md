@@ -19,9 +19,7 @@ inter-protein contact prediction from sequence.
 ### 2. Modify the path of each tool (CCMpred, alnstats ...) in predict.py
   
 ### 3. Download the trained models
-    mkdir model
-    cd model
-    wget XXXXX
+   Download the trained models from  [trained models](https://drive.google.com/file/d/1ICqJSNc01E2cGYhVj1IxzIkmnS-FMT2C/view?usp=sharing), then unzip it into the folder named "model".
 
 ## Usage
     python generate_feature.py sequenceA msaA sequenceB msaB result_path device
