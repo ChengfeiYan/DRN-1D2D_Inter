@@ -22,8 +22,8 @@ inter-protein contact prediction from sequence.
    Download the trained models from  [trained models](https://drive.google.com/file/d/1ICqJSNc01E2cGYhVj1IxzIkmnS-FMT2C/view?usp=sharing), then unzip it into the folder named "model".
 
 ## Usage
-    python generate_feature.py sequenceA msaA sequenceB msaB result_path device
+    python predict.py sequenceA msaA sequenceB msaB result_path device
    Where MSA should be derived from Uniref90 or Uniref100 database.
 
 ## Example
-    python generate_feature.py ./example/1GL1_A.fasta ./example/1GL1_A_uniref100.a3m ./example/1GL1_I.fasta ./example/1GL1_I_uniref100.a3m ./example/result cpu
+    python predict.py ./example/1GL1_A.fasta ./example/1GL1_A_uniref100.a3m ./example/1GL1_I.fasta ./example/1GL1_I_uniref100.a3m ./example/result cpu
