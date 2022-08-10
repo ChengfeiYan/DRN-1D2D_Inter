@@ -27,7 +27,8 @@ inter-protein contact prediction from sequence.
 
 ## Example
     python predict.py ./example/1GL1_A.fasta ./example/1GL1_A_uniref100.a3m ./example/1GL1_I.fasta ./example/1GL1_I_uniref100.a3m ./example/result cpu
- Please cite: Improved inter-protein contact prediction using dimensional hybrid residual networks and protein language models
+## Reference  
+Please cite: Improved inter-protein contact prediction using dimensional hybrid residual networks and protein language models
 Yunda Si, Chengfei Yan
 bioRxiv 2022.08.04.502748; doi: https://doi.org/10.1101/2022.08.04.502748.
 
