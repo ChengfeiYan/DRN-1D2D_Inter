@@ -32,4 +32,4 @@ Please cite: Improved inter-protein contact prediction using dimensional hybrid 
 Yunda Si, Chengfei Yan
 bioRxiv 2022.08.04.502748; doi: https://doi.org/10.1101/2022.08.04.502748.
 
-If you meet any problem in installing or running the program please contact chengfeiyan@hust.edu.cn.
+If you meet any problem in installing or running the program, please contact chengfeiyan@hust.edu.cn.
