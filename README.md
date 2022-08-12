@@ -1,6 +1,6 @@
 # DRN-1D2D_Inter
 inter-protein contact prediction from sequence.
-![image](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/data/main_fig.)
+![image](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/data/main_fig.jpg)
 ## Requirements
 - #### python3.8
   1. [pytorch1.9](https://pytorch.org/)  
