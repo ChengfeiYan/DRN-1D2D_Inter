@@ -23,10 +23,21 @@ inter-protein contact prediction from sequence.
 
 ## Usage
     python predict.py sequenceA msaA sequenceB msaB result_path device
+    1.  sequenceA: fasta file corresponding to target A.
+    2.  msaA: a3m file corresponding to target A.
+    3.  sequenceB: fasta file corresponding to target B.
+    4.  msaB: a3m file corresponding to target B.
+    5.  result_path: /
+    6.  device: cpu, cuda:0, cuda:1, ...
+    
    Where MSA should be derived from Uniref90 or Uniref100 database.
 
 ## Example
     python predict.py ./example/1GL1_A.fasta ./example/1GL1_A_uniref100.a3m ./example/1GL1_I.fasta ./example/1GL1_I_uniref100.a3m ./example/result cpu
+
+## The output of exmaple(1GL1)
+![image](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/data/drn.jpg)
+
 ## Reference  
 Please cite: Improved inter-protein contact prediction using dimensional hybrid residual networks and protein language models
 Yunda Si, Chengfei Yan
