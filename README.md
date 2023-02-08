@@ -24,10 +24,10 @@ inter-protein contact prediction from sequence.
 ## Usage
     python predict.py sequenceA msaA sequenceB msaB result_path device
     1.  sequenceA: fasta file corresponding to target A.
-    2.  msaA: a3m file corresponding to target A.
-    3.  sequenceB: fasta file corresponding to target B.
+    2.  msaA: a3m file corresponding to target A (multiple sequence alignment).
+    3.  sequenceB: fasta file corresponding to target B (multiple sequence alignment).
     4.  msaB: a3m file corresponding to target B.
-    5.  result_path: /
+    5.  result_path: [a directory for the output]
     6.  device: cpu, cuda:0, cuda:1, ...
     
    Where MSA should be derived from Uniref90 or Uniref100 database.
