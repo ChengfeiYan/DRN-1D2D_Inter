@@ -16,7 +16,7 @@ inter-protein contact prediction from sequence.
 ## Installation
 ### 1. Install DRN-1D2D_Inter
     git clone https://github.com/ChengfeiYan/DRN-1D2D_Inter.git
-### 2. Modify the path of each tool (CCMpred, alnstats ...) in predict.py
+### 2. Modify the path of each tool (CCMpred, alnstats ...) and the paths of the parameter files of the protien lanuage models (ESM-1b and EMS-MSA-1b) in predict.py
   
 ### 3. Download the trained models
    Download the trained models from  [trained models](https://drive.google.com/file/d/1ICqJSNc01E2cGYhVj1IxzIkmnS-FMT2C/view?usp=sharing), then unzip it into the folder named "model".
