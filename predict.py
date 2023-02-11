@@ -19,7 +19,7 @@ from model import resnet18
 import numpy as np
 
 
-#### path
+#### path of tools and parameter files of protein language moodels (ESM-1b, ESM-MSA-1b)
 
 CCMPred = '/home/yunda_si/self/software_p/CCMpred_pad/bin/ccmpred'
 reformat = '/home/Common_softwares/DeepMSA/bin/fasta2aln'
