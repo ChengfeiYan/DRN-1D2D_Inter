@@ -40,6 +40,6 @@ inter-protein contact prediction from sequence.
 
 It should be noted, we downsampled the MSAs of the example target due to the file size limiation of github. The real performance of DRN-1D2D_Inter for the provided example should be better in real practice.
 ## Reference  
-Please cite: Yunda Si, Chengfei Yan, Improved inter-protein contact prediction using dimensional hybrid residual networks and protein language models, Briefings in Bioinformatics, 2023;, bbad039, https://doi.org/10.1093/bib/bbad039
+Please cite: Yunda Si, Chengfei Yan, Improved inter-protein contact prediction using dimensional hybrid residual networks and protein language models, Briefings in Bioinformatics, 2023, bbad039, https://doi.org/10.1093/bib/bbad039
 
 If you meet any problem in installing or running the program, please contact chengfeiyan@hust.edu.cn.
