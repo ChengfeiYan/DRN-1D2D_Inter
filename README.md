@@ -8,8 +8,8 @@ inter-protein contact prediction from sequence.
   3. [esm](https://github.com/facebookresearch/esm)
   4. [numpy](https://numpy.org/)
 - #### other packages
-  1. [alnstats](https://github.com/psipred/metapsicov/tree/master/src)
-  2. [fasta2aln](https://github.com/kad-ecoli/hhsuite2/blob/master/bin/fasta2aln)
+  1. [alnstats](https://github.com/psipred/metapsicov/tree/master/src/alnstats) (directly download the executable file, and change its mode to be executable)
+  2. [fasta2aln](https://github.com/kad-ecoli/hhsuite2/blob/master/bin/fasta2aln) (directly dowload the executable file, and change its mode to be executable)
   3. [hh-suite](https://github.com/soedinglab/hh-suite)
   4. [CCMpred](https://github.com/soedinglab/CCMpred)
 
