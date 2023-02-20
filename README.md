@@ -1,5 +1,5 @@
 # DRN-1D2D_Inter
-inter-protein contact prediction from sequence.
+inter-protein contact prediction from sequences of interacting monomers:
 ![image](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/data/main_fig.jpg)
 ## Requirements
 - #### python3.8
