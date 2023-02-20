@@ -7,6 +7,8 @@ inter-protein contact prediction from sequence.
   2. [Biopython](https://biopython.org/)
   3. [esm](https://github.com/facebookresearch/esm)
   4. [numpy](https://numpy.org/)
+  
+  **Please note**: To implement protein language models (ESM-1b and ESM-MSA-1b in this study) in [esm](https://github.com/facebookresearch/esm), model weights of these protein language models should be downloaded first from the links provided in the **"Available Models and Datasets"** table of [esm github](https://github.com/facebookresearch/esm). The paths of these model weights needs to be set in [predict.py](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/predict.py#L33) later. 
 - #### other packages
   1. [alnstats](https://github.com/psipred/metapsicov/tree/master/src/alnstats) (directly download the executable file, and change its mode to be executable)
   2. [fasta2aln](https://github.com/kad-ecoli/hhsuite2/blob/master/bin/fasta2aln) (directly dowload the executable file, and change its mode to be executable)
