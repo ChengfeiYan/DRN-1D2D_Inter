@@ -19,8 +19,9 @@ inter-protein contact prediction from sequence.
 ### 1. Install DRN-1D2D_Inter
     git clone https://github.com/ChengfeiYan/DRN-1D2D_Inter.git
 ### 2. Modify the path of each tool (CCMpred, alnstats ...) and the paths of the model weights of the protien lanuage models (ESM-1b and EMS-MSA-1b) in [predict.py](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/predict.py#L22)
+### 3. Copy the [esm1b_t33_650M_UR50S-contact-regression.pt](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/data/regression/esm1b_t33_650M_UR50S-contact-regression.pt) from /data/regression to the location of [ESM-1b's model weights](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/predict.py#L33);  Copy the [esm_msa1b_t12_100M_UR50S-contact-regression.pt](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/data/regression/esm_msa1b_t12_100M_UR50S-contact-regression.pt) from /data/regression to the location of [ESM-MSA-1b's model weights](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/predict.py#L34);
   
-### 3. Download the trained models
+### 4. Download the trained models
    Download the trained models from  [trained models](https://drive.google.com/file/d/1ICqJSNc01E2cGYhVj1IxzIkmnS-FMT2C/view?usp=sharing), then unzip it into the folder named "model".
 
 ## Usage
