@@ -42,6 +42,10 @@ inter-protein contact prediction from sequences of interacting proteins:
 ![image](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/data/drn.jpg)
 
 It should be noted, we downsampled the MSAs of the example target due to the file size limiation of github. The real performance of DRN-1D2D_Inter for the provided example should be better in real practice.
+
+## Train
+The script used to train DRN-1D2D_Inter is [train.py](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/train.py), which contains all the details of training DRN-1D2D_Inter, including how to choose the best model, how to calculate the loss, etc.
+
 ## Reference  
 Please cite: Yunda Si, Chengfei Yan, Improved inter-protein contact prediction using dimensional hybrid residual networks and protein language models, Briefings in Bioinformatics, 2023, bbad039, https://doi.org/10.1093/bib/bbad039
 
